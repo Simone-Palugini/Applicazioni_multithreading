@@ -13,7 +13,16 @@
                 <GradientStop Color="#FFD42222" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="btn_task" Content="Calcola" HorizontalAlignment="Left" Margin="350,240,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="btn_task_Click"/>
+        <Button x:Name="btn_task" Content="Calcola" HorizontalAlignment="Left" Margin="350,240,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="btn_task_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF07FF99" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB"/>
+                    <GradientStop Color="#FFFFC11D"/>
+                    <GradientStop Color="#FFE6931C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
         <Label x:Name="lbl_risultato" Content="" HorizontalAlignment="Left" Margin="350,165,0,0" VerticalAlignment="Top" Width="105" Background="White"/>
 
     </Grid>
