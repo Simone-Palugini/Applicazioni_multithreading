@@ -24,5 +24,17 @@ namespace App_multithreading
         {
             InitializeComponent();
         }
+
+        private void btn_task_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i <= 1000000; i++)
+            {
+                for (int j = 0; j <= 1000000; j++)
+                {
+
+                }
+            }
+            lbl_risultato.Content = "finito";
+        }
     }
 }
