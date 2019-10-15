@@ -10,10 +10,10 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FFC9B9B9"/>
-                <GradientStop Color="#FFD42222" Offset="1"/>
+                <GradientStop Color="#FFCCD422" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="btn_task" Content="Calcola" HorizontalAlignment="Left" Margin="350,240,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="btn_task_Click">
+        <Button x:Name="btn_task" Content="Conta" HorizontalAlignment="Left" Margin="150,240,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="btn_task_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FF07FF99" Offset="0"/>
@@ -23,7 +23,17 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Label x:Name="lbl_risultato" Content="" HorizontalAlignment="Left" Margin="350,165,0,0" VerticalAlignment="Top" Width="105" Background="White"/>
+        <Label x:Name="lbl_risultato" Content="" HorizontalAlignment="Left" Margin="150,160,0,0" VerticalAlignment="Top" Width="105" Background="White"/>
+        <Button x:Name="btn_count" Content="Mostra conteggio" HorizontalAlignment="Left" Margin="520,240,0,0" VerticalAlignment="Top" Width="105" Height="35" Click="btn_count_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFFFC11D"/>
+                    <GradientStop Color="#FFE6931C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbl_conteggio" Content="" HorizontalAlignment="Left" Margin="520,160,0,0" VerticalAlignment="Top" Width="105" Background="White"/>
 
     </Grid>
 </Window>
